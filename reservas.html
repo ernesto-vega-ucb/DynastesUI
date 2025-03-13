@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynastes Travel - Agencia de Viajes</title>
+</head>
+<body>
+    <div id="header">
+        <div id="image-header">
+            <img src="./images/main-header.jpg" width="1230" height="300" />
+        </div>
+        <div id="menu-header">
+            <menu>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./reservas.html">Reserva</a></li>
+                <li><a href="./contactenos.html">Contáctenos</a></li>
+                <li><a href="./registro.html">Registro</a></li>
+                <li><a href="./login.html">Login</a></li>
+            </menu> 
+        </div>
+    </div>
+    <div id="main-content">
+        <form method="POST"  action="#">
+            <table>
+                <tr>
+                    <td>Paquete</td>
+                    <td>
+                        <select name="paquete" id="paquete">
+                            <option>Seleccione un paquete</option>
+                            <option>Paquete 1</option>
+                            <option>Paquete 2</option>
+                            <option>Paquete 3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Numero de personas</td>
+                    <td><input type="number" name="personas" id="personas" min="1" max="100" /></td>
+                </tr>
+                <tr>
+                    <td>Fecha</td>
+                    <td><input type="text" name="date" id="date" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" >Reservar</button>
+                        <button type="button" >Cancelar</button>
+                    </td>                    
+                </tr>
+            </table>
+        </form>
+    </div>
+    <div id="footer">
+        <div><img src="./images/footer.jpg" width="200" height="200" /></div>
+        <div>
+            <ul>
+                <li><a href="#" >Contáctenos</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
